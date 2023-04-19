@@ -1,0 +1,32 @@
+17 mins pass the bridge
+
+1 and 2 go first, the shortest go first(1, 2 go 1st)
+the fastest one comes back(1 goes back)
+the slowest two go together(5, 10 cross)
+the 2nd fast goes back(2 goes back)
+and the fast and 2nd fast go together(1 and 2 cross)
+
+HW2 Problem 2
+Just left the white ones in the middle not doing anything to it
+int p1 = 0, p2 = colors.length -1, p1 =0;
+while(p1<=p2)
+ switch(colores[p1])
+  case RED:
+    swap(colors, p1, p0);
+    p0++
+    break;
+  case WHITE:
+    p1++;
+    break;
+  case BLUE:
+    swap(colors, p1, p2);
+    p2--;
+    break;
+    
+private static void swap(int[]array, int 1, int j)
+int temp = array[i];
+array[i] = array[j];
+array[j] = temp;
+
+if the code has so many if-else statments, change to switch
+
